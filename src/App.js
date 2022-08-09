@@ -166,7 +166,7 @@ export default function App() {
           {getRoutes(routes)}
           <Route path="/project/:id" component={Project} />
 
-          <Route path="" element={<Navigate to="/dashboard" />} />
+          <Route path="*" element={<Navigate to="/dashboard" />} />
         </Routes>
       </ThemeProvider>
     </CacheProvider>
@@ -194,7 +194,7 @@ export default function App() {
         <Route path="/projecttest" element={<Projecttest/>} />
 
 
-        <Route path="" element={<Navigate to="/projects" />} />
+        <Route path="*" element={<Navigate to="/projects" />} />
       </Routes>
     </ThemeProvider>
   );

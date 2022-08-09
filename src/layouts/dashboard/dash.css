@@ -1,0 +1,51 @@
+.projall{
+margin: 20px;
+}
+.taskall{
+margin: 20px;
+width: 66%;
+}
+.taskin{
+height: 50px;
+}
+.cardproj{
+  z-index: 99;
+width: 250px;
+display: grid;
+position: relative;
+border-radius: 25PX;
+padding: 15px;
+margin: 10px;
+
+}
+
+
+.addnote{
+display: grid;
+width: 66%;
+margin: auto;
+
+}
+
+
+.titleaddnote{
+
+}
+.intitleaddnote{
+  border-radius: 20px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.innoteaddnote{
+  border-radius: 20px;
+padding: 1px;
+  font-size: 17px;
+  height: 100px;
+}
+.inlinkaddnote{
+  border-radius: 20px;
+  height: 50px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
